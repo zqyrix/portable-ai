@@ -2,8 +2,6 @@ import edge_tts, asyncio, pygame, tempfile, os, re
 import speech_recognition as sr
 
 PRONUNCIATION = {
-    "Nithin": "Nit-thin",
-    "nithin": "Nit-thin",
     "Zqyrix": "Zy-rix",
     "zqyrix": "Zy-rix",
     "ZQYRIX": "Zy-rix",
