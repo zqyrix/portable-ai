@@ -1,0 +1,7 @@
+ollama
+edge-tts
+pygame
+SpeechRecognition
+psutil
+PyAutoGUI
+ddgs
