@@ -10,7 +10,7 @@ while True:
     user = input("You: ").strip()
     if not user: continue
     if user.lower() in ["bye","exit","quit"]:
-        print("Zqyrix: Catch you later Nithin!")
+        print("Zqyrix: Catch you later user!")
         break
     reply = brain.think(user)
     print(f"\nZqyrix: {reply}\n")
