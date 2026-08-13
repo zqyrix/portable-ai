@@ -30,7 +30,7 @@ class Brain:
 
     def reset(self):
         self.history = []
-        return "Memory cleared, Nithin."
+        return "Memory cleared, user."
 
     def save_session(self):
         base_dir = os.path.dirname(os.path.abspath(__file__))
