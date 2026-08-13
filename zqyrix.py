@@ -272,7 +272,7 @@ def main():
     print("  Z Q Y R I X  —  Online")
     print("="*45)
     mode = input("\n  Mode: (1) Voice  (2) Text → ").strip()
-    voice.speak("Hey Nithin! Zqyrix online and ready.")
+    voice.speak("Hey user! Zqyrix online and ready.")
 
     while True:
         try:
@@ -285,14 +285,14 @@ def main():
                 continue
 
             if user_input.lower() in ["exit","quit","bye","goodbye","shutdown"]:
-                voice.speak("Going offline. Catch you later Nithin!")
+                voice.speak("Going offline. Catch you later user!")
                 break
 
             response = route(user_input)
             voice.speak(str(response))
 
         except KeyboardInterrupt:
-            voice.speak("Shutting down. See you Nithin!")
+            voice.speak("Shutting down. See you user!")
             break
         except Exception as e:
             print(f"  Error: {e}")
